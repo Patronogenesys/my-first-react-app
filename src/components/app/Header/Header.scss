@@ -1,0 +1,16 @@
+.header {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 48px;
+}
+
+.header--logo-text {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.header .flex-group {
+  align-items: baseline;
+}

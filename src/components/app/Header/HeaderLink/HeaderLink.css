@@ -1,0 +1,13 @@
+.header--link, .header--link--active {
+  padding: 10px;
+  height: 100%;
+  min-width: 40px;
+  display: flex;
+  place-items: center;
+}
+.header--link--active {
+  background-color: aliceblue;
+}
+.header--link:hover, .header--link--active:hover {
+  background-color: lightcyan;
+}/*# sourceMappingURL=HeaderLink.css.map */

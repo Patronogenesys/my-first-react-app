@@ -1,0 +1,15 @@
+.button {
+  min-width: 80px;
+  min-height: 24px;
+  border-radius: 5px;
+  border: grey 2px solid;
+  font-size: 16px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: lightcyan;
+}
+.button:active {
+  background-color: lightblue;
+}/*# sourceMappingURL=Button.css.map */

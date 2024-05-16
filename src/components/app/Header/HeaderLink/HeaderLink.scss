@@ -1,0 +1,17 @@
+.header--link {
+  padding: 10px;
+  height: 100%;
+  min-width: 40px;
+  display: flex;
+  place-items: center;
+
+  &--active {
+    @extend .header--link;
+    background-color: aliceblue;
+  }
+
+  &:hover,
+  &--active:hover {
+    background-color: lightcyan;
+  }
+}
